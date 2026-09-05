@@ -1,5 +1,7 @@
 # On-the-fly: An Efficient Online Tucker Decomposition for Tensor Streams
 
+This archive is distributed in association with the INFORMS Journal on Computing (https://pubsonline.informs.org/journal/ijoc) under the MIT License (https://github.com/INFORMSJoC/2025.1563/blob/main/LICENSE)
+
 The software and data in this repository are a snapshot of the code and data used in the research reported in the paper "On-the-fly: An Efficient Online Tucker Decomposition for Tensor Streams" by H. Xiao, K. Zhao, and A. Rai.
 
 # Cite

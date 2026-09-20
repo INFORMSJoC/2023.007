@@ -20,7 +20,7 @@ by Houping Xiao, Kai Zhao, and Arun Rai.
 To cite the contents of this repository, please cite both the paper and this repo,
 using their respective DOIs.
 
-Repository:
+Paper DOI:
 
 https://doi.org/10.1287/ijoc.2023.007
 

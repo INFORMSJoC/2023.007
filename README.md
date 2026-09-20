@@ -17,8 +17,18 @@ by Houping Xiao, Kai Zhao, and Arun Rai.
 
 ## Cite
 
-To cite the contents of this repository, please cite the associated paper and
-software archive.
+To cite the contents of this repository, please cite both the paper and this repo,
+using their respective DOIs.
+
+Repository:
+
+https://doi.org/10.1287/ijoc.2023.007
+
+Repository DOI:
+
+https://doi.org/10.1287/ijoc.2023.007.cd
+
+Below is the BibTeX for citing this snapshot of the repository.
 
 ```bibtex
 @misc{xiao2026,
@@ -30,14 +40,6 @@ software archive.
   note =       {Available for download at https://github.com/INFORMSJoC/2023.007},
 }
 ```
-
-Repository:
-
-https://github.com/INFORMSJoC/2023.007
-
-Repository DOI:
-
-https://doi.org/10.1287/ijoc.2023.007.cd
 
 ## Description
 

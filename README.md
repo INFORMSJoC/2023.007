@@ -58,7 +58,7 @@ The repository is organized as follows:
 
 - `src/`: MATLAB source code for OTD and baseline methods.
 - `data/`: datasets and dataset documentation used in the experiments.
-- `results/`: experimental outputs and figures.
+- `Results/`: experimental outputs and figures.
 - `README.md`: overview of the repository and instructions for reproducing the experiments.
 - `AUTHORS`: list of authors associated with this software archive.
 - `LICENSE`: licensing information for the source code.
@@ -132,7 +132,7 @@ scripts corresponding to each experiment.
 
 ## Results
 
-Experimental outputs and figures are stored in the `results/` directory.
+Experimental outputs and figures are stored in the `Results/` directory.
 
 The reported results include reconstruction error and running time comparisons
 between OTD and the baseline methods. Additional analyses reported in the paper

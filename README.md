@@ -5,7 +5,22 @@ This archive is distributed in association with the INFORMS Journal on Computing
 The software and data in this repository are a snapshot of the code and data used in the research reported in the paper "On-the-fly: An Efficient Online Tucker Decomposition for Tensor Streams" by H. Xiao, K. Zhao, and A. Rai.
 
 # Cite
-To cite the contents of this repository, please cite the following paper:
+To cite the contents of this repository, please cite both the paper and this software archive: 
+- https://dx.doi.org/10.1287/ijoc.2023.007.cd
+- https://github.com/INFORMSJoC/2023.007
+- BibTeX for citing this software archive:
+
+```bibtex
+
+@misc{xiao2026,
+  author =     {Xiao, Houping and Zhao, Kai and Rai, Arun},
+  publisher =  {INFORMS Journal on Computing},
+  title =      {On-the-fly: An Efficient Online Tucker Decomposition for Tensor Streams},
+  year =       {2026},
+  doi =        {10.1287/ijoc.2023.007.cd},
+  note =       {Available for download at https://github.com/INFORMSJoC/2023.007},
+}
+```
 
 
 # Description

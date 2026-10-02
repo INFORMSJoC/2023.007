@@ -37,6 +37,7 @@ Below is the BibTeX for citing this snapshot of the repository.
   title =      {On-the-fly: An Efficient Online Tucker Decomposition for Tensor Streams},
   year =       {2026},
   doi =        {10.1287/ijoc.2023.007.cd},
+  url =        {https://github.com/INFORMSJoC/2023.007},
   note =       {Available for download at https://github.com/INFORMSJoC/2023.007},
 }
 ```

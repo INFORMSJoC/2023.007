@@ -1,0 +1,46 @@
+function [W,H,t,e] = lumf(X,i)
+% MF algorithm to compute matrix factorization
+% after mattricization
+
+I = size(X);
+% i = 1;
+newX = cell (I(i),1);
+W = cell( I(i),1 );
+H = cell( I(i),1 );
+t1 = tic;
+for k = 1 : I(i)
+    if i == 1
+        tmp = X(k,:,:);
+    elseif i ==2
+        tmp = X(:,k,:);
+    else
+        tmp = X(:,:,k);
+    end
+[W{k},H{k}] = lu(tmp.data);
+newX{k} = W{k}*H{k};
+end
+
+t = toc(t1);
+
+X_new1 = tensor( rand(I) );
+if i == 1
+    for k = 1 : I(i)
+        X_new1(k,:,:) = newX{k};
+    end
+elseif i == 2
+    for k = 1 : I(i)
+        X_new1(:,k,:) = newX{k};
+    end
+else
+    for k = 1 : I(i)
+        X_new1(:,:,k) = newX{k};
+    end
+end
+
+X_new = X_new1;
+
+% t = toc(t1);
+% Error = (X-X_new).^2;
+% e = sqrt(sum(sum(sum(Error.data))));
+e = ce( X_new,X ) / ce(X,0);
+end
